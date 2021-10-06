@@ -4,16 +4,13 @@
  * Return: 0
  *
  **/
-int main(void)
+void print_alphabet(void);
 {
-char c[] = "abcdefghijklmnopqrstvwxyz";
 int d;
 
-for (d = 0; d <= 25; d++)
+for (d = 97; d <= 122; d++)
 {
-_putchar(c[d]);
+_putchar(d);
 }
-_putchar('\n');
-return (0);
+_putchar('\n')
 }
-
